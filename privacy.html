@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · drive-sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="./">drive-sync</a>
+  <nav><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></header>
+<main><div class="wrap">
+  <h1>Privacy policy</h1>
+  <p class="meta">Effective 15 November 2026</p>
+
+  <div class="card">
+    <p>drive-sync is a personal tool used only by its author, Xiaofeng Han, with his own Google and Microsoft accounts. This policy explains what the tool does with data from those accounts.</p>
+  </div>
+
+  <h2>Data the tool accesses</h2>
+  <ul>
+    <li>File and folder metadata (names, sizes, checksums, modification times, identifiers) and file contents in the owner's Google Drive and OneDrive, accessed through the Google Drive API and Microsoft Graph.</li>
+    <li>The account email address and storage quota, shown in the tool's status display.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Only to copy files between the owner's two accounts and to show sync status to the owner.</li>
+    <li>File contents pass through the owner's own computers while being copied. They are not stored beyond temporary buffers and short-lived spool files that are deleted after each copy.</li>
+    <li>No advertising, analytics, profiling or machine-learning training. Google user data is used only to provide the sync feature and complies with the Google API Services User Data Policy, including its Limited Use requirements.</li>
+  </ul>
+
+  <h2>Storage and security</h2>
+  <ul>
+    <li>Sync metadata (identifiers, names, checksums, sync state) is stored on the owner's home server.</li>
+    <li>OAuth credentials and tokens are stored encrypted, on the owner's home server or in the macOS Keychain. They are never stored in plain text and never sent anywhere except Google's and Microsoft's own sign-in servers.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>No data is sold, shared with or transferred to any third party. Data moves only between the owner's computers, Google and Microsoft.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Sync metadata is kept while the tool is in use and can be deleted at any time by removing the tool's state. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">Google account permissions</a> and <a href="https://account.live.com/consent/Manage">Microsoft app permissions</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at <a href="https://github.com/xiaofeng-han/drive-sync-oauth/issues">github.com/xiaofeng-han/drive-sync-oauth</a>.</p>
+</div></main>
+<footer><div class="wrap">drive-sync · personal project</div></footer>
+</body>
+</html>

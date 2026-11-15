@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>drive-sync</title>
+<meta name="description" content="drive-sync is a personal tool that keeps one person's Google Drive and Microsoft OneDrive in sync.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="./">drive-sync</a>
+  <nav><a href="./" aria-current="page">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></header>
+<main><div class="wrap">
+  <h1>drive-sync</h1>
+  <p class="lead">A personal tool that keeps one person's Google Drive and Microsoft OneDrive in sync with each other.</p>
+
+  <div class="card">
+    <p><strong>Personal use only.</strong> drive-sync is written and operated by Xiaofeng Han for his own accounts. It is not offered to the public, there is no sign-up, and it has no other users.</p>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Copies files between the owner's Google Drive and the owner's OneDrive: two-way, or one-way in either direction.</li>
+    <li>Runs on the owner's own computers (a home server and a Mac). There is no drive-sync cloud service.</li>
+    <li>Shows sync status in a macOS menu bar app and to the owner's own automation tools.</li>
+  </ul>
+
+  <h2>Access it requests</h2>
+  <ul>
+    <li><strong>Google Drive:</strong> <code>https://www.googleapis.com/auth/drive</code>, to read and write the files it keeps in sync.</li>
+    <li><strong>Microsoft OneDrive:</strong> <code>Files.ReadWrite.All</code>, <code>offline_access</code> and <code>User.Read</code>, for the same purpose.</li>
+  </ul>
+  <p>How this data is handled is described in the <a href="privacy.html">privacy policy</a>. Use is governed by the <a href="terms.html">terms of service</a>.</p>
+</div></main>
+<footer><div class="wrap">drive-sync · personal project · <a href="https://github.com/xiaofeng-han/drive-sync-oauth/issues">contact via GitHub</a></div></footer>
+</body>
+</html>
